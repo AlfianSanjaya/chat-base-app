@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: auth:latest
+        image: alfisan/auth:latest
         ports:
           - containerPort: 3000
         
